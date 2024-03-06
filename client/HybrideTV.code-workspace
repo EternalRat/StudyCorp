@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "path": "../client"
+    },
+    {
+      "path": "../server"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.configPath": "./.prettierrc",
+    "prettier.prettierPath": "./node_modules/prettier/index.cjs",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+  }
+}

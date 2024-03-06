@@ -1,0 +1,6 @@
+{
+    "PORT": 8080,
+    "CLIENT_ID": "1095077151138652180",
+    "CLIENT_SECRET": "JUzYIR1PF3tS4NYPghy316s6wuoznuMa",
+    "CLIENT_REDIRECT": "/api/auth/redirect"
+}

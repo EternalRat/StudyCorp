@@ -1,0 +1,92 @@
+body {
+  background-color: #eaecee;
+}
+.navbar {
+  display: flex;
+  background-color: #eaecee;
+}
+.user-avatar:not(.minimize) {
+  width: 100%;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 5px;
+  display: flex;
+}
+.user-avatar img {
+  border-radius: 100%;
+  width: 50px;
+}
+.user-name {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.navbar-body {
+  margin-top: 12%;
+  width: 100%;
+  height: 100%;
+}
+.navbar-items {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-button {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+}
+.navbar-button.selected {
+  background-color: #40b987a4;
+  height: 30px;
+  border-radius: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 7px;
+}
+.navbar-button:not(.selected):hover {
+  background-color: #40b9865b;
+  border-radius: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  padding-right: 7px;
+}
+.navbar-button:not(.minimize) a img {
+  height: 100%;
+  margin-right: 15px;
+}
+.navbar-button a {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imglogo {
+  border-radius: 100%;
+  float: right;
+  text-align: right;
+  margin: 0;
+}
+hr {
+  color: inherit;
+  background-color: currentColor;
+  width: 5px;
+}
+hr:not([size]) {
+  margin-left: 15px;
+  height: 30px;
+  margin-top: 0px;
+}
